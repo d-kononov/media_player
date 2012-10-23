@@ -5,7 +5,9 @@ changed jw player v4.4 with streaming webcam+audio over rtmp
 
 How to use this player to stream webcam+audio via wowza:
 
-## Inject this code to html page:
+## Player parametrs
+
+Inject this code to html page:
 
 	<html lang="en">
 	  <head>
@@ -46,11 +48,16 @@ How to use this player to stream webcam+audio via wowza:
 	  </body>
 	</html> 
 
-## Enable live streaming plugin in wowza. Create webcam.stream file in content wowza folder with next content:
+## Wowza live streaming
+
+Enable live streaming plugin in wowza. 
+Create webcam.stream file in content wowza folder with next content:
 
 rtmp://xxx.xxx.xxx.xxx/live/livestream
 
-## Create player html file with below content, or open wowza example page (live.html) and play rtmp://xxx.xxx.xxx.xxx/live/ with webcam.stream stream.
+## Get stream
+
+Create player html file with below content, or open wowza example page (live.html) and play rtmp://xxx.xxx.xxx.xxx/live/ with webcam.stream stream.
 
 	<html>
 	<head>
