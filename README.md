@@ -51,9 +51,7 @@ Inject this code to html page:
 ## Wowza live streaming
 
 Enable live streaming plugin in wowza. 
-Create webcam.stream file in content wowza folder with next content:
-
-rtmp://xxx.xxx.xxx.xxx/live/livestream
+Create empty file in content wowza folder with name webcam.stream
 
 ## Get stream
 
